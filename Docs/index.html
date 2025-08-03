@@ -1,0 +1,284 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>David - Mon Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+  nav {
+      background-color: #34495e;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: yellowgreen;
+ border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #219150;
+    }
+
+    .skills {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .skills ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+     nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+<nav>
+  <ul>
+    <li><a href="#accueil">Accueil</a></li>
+    <li><a href="#competences">Compétences</a></li>
+    <li><a href="#cv">Mon CV</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <style>
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+
+</nav>
+  <!-- Le reste de ta page -->
+  <section id="accueil">
+    <h1>Bienvenue</h1>
+    <p>Voici ma première page web.</p>
+  </section>
+
+  <!-- Autres sections ici -->
+   <section id="cv">
+  <h2>Mon CV</h2>
+  <p>
+    <a href="cv.pdf.pdf" target="_blank">Cliquez ici pour voir mon CV</a>
+  </p>
+</section>
+<p>
+  <a href="mon_cv.pdf" target="_blank" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+    Voir mon CV
+  </a>
+</p>
+
+ <div class="projects-box" id="projets">
+  <h3>Mes Projets</h3>
+  <ul>
+    <li><strong>Site Web Personnel :</strong> création d’un portfolio en HTML/CSS</li>
+    <li><strong>Base de données Looping :</strong> gestion des étudiants (CRM)</li>
+    <li><strong>Administration WordPress :</strong> publication d’un article</li>
+  </ul>
+</div>
+ <style>
+  .projects-box {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.projects-box h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+.projects-box ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+</style>
+
+  <div class="container" id="accueil">
+     <img src="maphoto.jpg" alt="test image"/> 
+
+
+    <h2>David</h2>
+    <p>Étudiant passionné par l'informatique : web, base de données, réseau...</p>
+
+    <div class="skills" id="competences">
+    
+  <h2>Mes Compétences</h2>
+  <ul>
+    <li>HTML & CSS</li>
+    <li>Création de sites web</li>
+    <li>SQL & Gestion de base de données</li>
+    <li>Utilisation de Looping</li>
+    <li>Initiation aux réseaux informatiques</li>
+  </ul>
+</section>
+<style>
+  #competences {
+    padding: 40px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  #competences h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  #competences ul {
+    list-style: none;
+    padding: 0;
+}
+
+  #competences ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+</style>
+
+      </ul>
+    </div>
+
+    <h3 id="contact">Contact</h3>
+ <p>Email : davidndibu985@gmail.com</p>
+
+  </div>
+ <footer>
+  <p>Suivez-moi sur :</p>
+  <a href="https://facebook.com/tonprofil" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://X.com/tonprofil" target="_blank"><i class="fab fa-X"></i></a>
+  <a href="https://linkedin.com/in/tonprofil" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+</footer>
+<head>
+  ...
+  <style>
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer a {
+      color: white;
+      font-size: 28px;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s ease, transform 0.3s ease;
+      display: inline-block;
+padding: 10px;
+      border-radius: 8px;
+    }
+    footer a:hover {
+      color: #1DA1F2;
+      transform: scale(1.2);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+
+</body>
+</html>
+```
